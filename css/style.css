@@ -1,0 +1,34 @@
+.wrapper {
+  width: 100%;
+  background-color: blueviolet;
+  height: 33%;
+  min-height: 300px;
+  margin-bottom: 50px;
+}
+
+.number {
+  width: 100%;
+  height: 100px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1199px) {
+  .wrapper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  
+}
+
+@media screen and (max-width: 767px) {
+  
+}
+
+@media screen and (max-width: 675px) {
+  
+}
